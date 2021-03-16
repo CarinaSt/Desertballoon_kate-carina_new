@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Desertballoons_Kate&Carina/SkySerie Freebie/ExampleScenes/HighFantasy.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
