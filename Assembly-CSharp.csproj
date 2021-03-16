@@ -66,10 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\FuggooController.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\MainCameraController.cs" />
-    <Compile Include="Assets\Desertballoons_Kate&amp;Carina\_Creepy_Cat\3D Games Effects Pack Free\Example_02\InstanceExample.cs" />
     <None Include="Assets\Desertballoons_Kate&amp;Carina\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
     <None Include="Assets\Desertballoons_Kate&amp;Carina\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Basic.shader" />
-    <None Include="Assets\Desertballoons_Kate&amp;Carina\_Creepy_Cat\3D Games Effects Pack Free\Example_02\Help Readme SOS.txt" />
     <None Include="Assets\Desertballoons_Kate&amp;Carina\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit 2.shader" />
     <None Include="Assets\Desertballoons_Kate&amp;Carina\_Creepy_Cat\3D Games Effects Pack Free\_FAQ - Informations\Help Readme SOS.txt" />
     <Reference Include="UnityEngine">
