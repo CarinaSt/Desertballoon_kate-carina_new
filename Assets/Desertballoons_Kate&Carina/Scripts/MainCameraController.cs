@@ -19,6 +19,7 @@ public class MainCameraController : MonoBehaviour
         {       //put it into information with physics and give information
             if (hit.collider.tag == "jumpy")
             {
+                //hit.rigidbody.AddForce(Vector3.up, ForceMode.Impulse);
                 hit.rigidbody.AddForce(Vector3.up, ForceMode.Impulse);
             }
         }
