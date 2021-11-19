@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{764A7433-8705-6009-06E6-ED5E9F05284A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Desertballoons_Kate&amp;Carina/Scripts/MainCameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Desertballoons_Kate&amp;Carina/Scripts/FuggooController.cs">
     <Files>
-      <File FileName="Assets/Desertballoons_Kate&amp;Carina/Scripts/FuggooController.cs" Line="13" Column="1" />
-      <File FileName="Assets/Desertballoons_Kate&amp;Carina/Scripts/MainCameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Desertballoons_Kate&amp;Carina/Scripts/FuggooController.cs" Line="10" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
