@@ -6,6 +6,7 @@ TagManager:
   tags:
   - jumpy
   - pop
+  - floor
   layers:
   - Default
   - TransparentFX
