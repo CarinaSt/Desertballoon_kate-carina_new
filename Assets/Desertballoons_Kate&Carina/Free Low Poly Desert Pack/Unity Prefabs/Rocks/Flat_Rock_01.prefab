@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 219116815752995926}
   m_Layer: 0
   m_Name: Flat_Rock_01
-  m_TagString: pop
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

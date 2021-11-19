@@ -16,8 +16,8 @@ public class FuggooController : MonoBehaviour
             if(contact.otherCollider.tag == "pop")
             {
                 // create new cacti on collision
-                GameObject.Instantiate(contact.otherCollider.gameObject, contact.otherCollider.transform.position + new Vector3(0.5f, 0, 0), contact.otherCollider.transform.rotation);
-                contact.otherCollider.tag = null;
+                GameObject.Instantiate(contact.otherCollider.gameObject, contact.otherCollider.transform.position + new Vector3(2f, 1f, 0), contact.otherCollider.transform.rotation);
+                contact.otherCollider.tag = "no tag";
             }
         }
     }
