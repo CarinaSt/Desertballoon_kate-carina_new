@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 348380558}
   - component: {fileID: 348380557}
   - component: {fileID: 348380556}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348380554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.9, y: 0, z: 46.4}
+  m_LocalPosition: {x: -6.9, y: 0, z: 33}
   m_LocalScale: {x: -97.12448, y: 56.122265, z: 0.06600041}
   m_Children: []
   m_Father: {fileID: 1194360864}
@@ -1878,12 +1878,12 @@ PrefabInstance:
     - target: {fileID: 7965916130835343296, guid: 63ff2386a1262d64f99de6e3e1183874,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7965916130835343296, guid: 63ff2386a1262d64f99de6e3e1183874,
         type: 3}
       propertyPath: m_Convex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -3002,7 +3002,7 @@ GameObject:
   - component: {fileID: 946342643}
   - component: {fileID: 946342642}
   - component: {fileID: 946342641}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3017,7 +3017,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946342639}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 39.9, y: 0.000007358576, z: 0.37179}
+  m_LocalPosition: {x: 30.5, y: 0.000007358576, z: 0.37179}
   m_LocalScale: {x: -93.16572, y: 56.122265, z: 0.06600041}
   m_Children: []
   m_Father: {fileID: 1194360864}
@@ -3854,7 +3854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194360863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 18.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2121299120}
@@ -4738,12 +4738,12 @@ PrefabInstance:
     - target: {fileID: 880372896484650415, guid: e9ef501c03d9e0f4f8965162fd6bfbba,
         type: 3}
       propertyPath: m_Convex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880372896484650415, guid: e9ef501c03d9e0f4f8965162fd6bfbba,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef501c03d9e0f4f8965162fd6bfbba, type: 3}
@@ -5228,7 +5228,7 @@ GameObject:
   - component: {fileID: 1713442232}
   - component: {fileID: 1713442231}
   - component: {fileID: 1713442230}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5243,7 +5243,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713442228}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -47.2, y: -0.0000071797663, z: -1.8718}
+  m_LocalPosition: {x: -33, y: -0.0000071797663, z: -1.8718}
   m_LocalScale: {x: -101.33788, y: 56.122265, z: 0.06600041}
   m_Children: []
   m_Father: {fileID: 1194360864}
@@ -5782,7 +5782,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817225298}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 4e0b0a5dd3369433491a38d588a192ce, type: 2}
   m_Animations:
@@ -6698,7 +6698,7 @@ GameObject:
   - component: {fileID: 2121299123}
   - component: {fileID: 2121299122}
   - component: {fileID: 2121299121}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6713,7 +6713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121299119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4, y: 0, z: -49.8}
+  m_LocalPosition: {x: -4.1, y: 0, z: -40.5}
   m_LocalScale: {x: -92.850365, y: 56.122265, z: 0.06600041}
   m_Children: []
   m_Father: {fileID: 1194360864}

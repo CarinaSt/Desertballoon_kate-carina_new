@@ -16,7 +16,7 @@ public class MainCameraController : MonoBehaviour
     {
         RaycastHit hit;     //variable
         var ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition); // we create a ray
-        if (Physics.Raycast(ray, out hit, 50000))
+        if (Physics.Raycast(ray, out hit, 5000))
         {       //put it into information with physics and give information
             //if (hit.collider.tag == "jumpy")
             //{
@@ -27,9 +27,14 @@ public class MainCameraController : MonoBehaviour
             {
                 foreach(GameObject balloon in GameObject.FindGameObjectsWithTag("jumpy"))
                 {
-                    Debug.Log("huhu");
-                    Vector3 direction = hit.point - centerObject.position;
-                    balloon.GetComponent<Rigidbody>().AddForce(direction*Time.deltaTime*15, ForceMode.Force);
+                    // Entfernung Raduis Balloon to Raycast Hit Point on th platforms
+                    if ((hit.point - balloon.transform.position).magnitude < 50)
+                    {
+                        // Vector of Direction Balloon Force -> Hitpoint to Center Platform + additional height
+                        Vector3 direction = hit.point - centerObject.position + new Vector3(0, 2, 0);
+                        balloon.GetComponent<Rigidbody>().AddForce(direction.normalized * Time.deltaTime * 1000, ForceMode.Force);
+                    }
+                    
                 }
                
                
