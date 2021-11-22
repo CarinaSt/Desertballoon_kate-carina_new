@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pharaoh_animation : MonoBehaviour
 {
@@ -31,5 +32,10 @@ public class pharaoh_animation : MonoBehaviour
             anim.SetBool("SetBool", true);
 
         }
+    }
+
+    public void GoOn()
+    {
+        SceneManager.LoadScene("Final");
     }
 }
