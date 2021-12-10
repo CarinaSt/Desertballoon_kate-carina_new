@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using System.Diagnostics;
 
+[DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 public class pharaoh_animation : MonoBehaviour
 {
     public empty_1 em1;
@@ -36,6 +40,11 @@ public class pharaoh_animation : MonoBehaviour
 
     public void GoOn()
     {
-        SceneManager.LoadScene("Final");
+        SceneManager.LoadScene("final");
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }
