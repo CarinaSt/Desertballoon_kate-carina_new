@@ -66,7 +66,6 @@
   <ItemGroup>
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\FuggooController.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\MainCameraController.cs" />
-    <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\Pharao_LoadScene.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_1.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_2.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_3.cs" />
