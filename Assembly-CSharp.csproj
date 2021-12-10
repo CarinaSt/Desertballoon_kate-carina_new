@@ -72,7 +72,6 @@
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_4.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_5.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\empty_6.cs" />
-    <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\final.cs" />
     <Compile Include="Assets\Desertballoons_Kate&amp;Carina\Scripts\pharaoh_animation.cs" />
     <Compile Include="Assets\bone_1.cs" />
     <Compile Include="Assets\collectables_level.cs" />
